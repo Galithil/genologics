@@ -145,7 +145,7 @@ class SampleHistory:
         #it is quite heavy on logging at info level
         not_done=True
         while not_done:
-            logging.info ("looking for "+(starting_art))
+            logging.info ("looking for ",(starting_art))
             not_done=False 
             for o in artifacts:
                 logging.info (o.id)
